@@ -24,7 +24,7 @@
     },
     "web": {
       "bundler": "metro",
-      "output": "static",
+      "output": "server",
       "favicon": "./assets/images/favicon.png"
     },
     "plugins": [
@@ -34,7 +34,8 @@
         {
           "image": "assets/images/splash.png",
           "resizeMode": "contain",
-          "backgroundColor": "#2f80ed"
+          "backgroundColor": "#2f80ed",
+          "origin": "http://uber.com"
         }
       ]
     ],
